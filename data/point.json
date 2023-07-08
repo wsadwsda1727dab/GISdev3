@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "red",
+        "name": "hubu university",
+        "population": 12000,
+        "Buildyear": 1931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32793617248535,
+          30.579664450765208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "red",
+        "name": "hubu sport",
+        "population": 1200,
+        "Buildyear": 1964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3308973312378,
+          30.580163231168658
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online map</title>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+			
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		   crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		   crossorigin="">
+		</script> 
+		
+	    <link rel="stylesheet" href="css/main.css" />
+	    <script src="js/leaflet1.js"></script>
+		<script type="text/javascript" src="js/leaflet-search.js"></script>
+		<link rel="stylesheet" href="css/leaflet-search.css"/>
+		<script src="js/jquery-3.6.0.js"></script>
+		
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/product.css" />
+		
+	</head>
+	
+	<body onload="init()">
+		<nav class="site-header sticky-top py-1">
+		  <div class="container d-flex flex-column flex-md-row justify-content-between">
+		    <a class="py-2" href="#" aria-label="Product">
+		      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+		    </a>
+		    <a class="py-2 d-none d-md-inline-block" href="Leaflet_map.html">Leaflet</a>
+		    <a class="py-2 d-none d-md-inline-block" href="index.html">Baidu</a>
+		    <a class="py-2 d-none d-md-inline-block" href="mesum.html">Enterprise</a>
+			<a class="py-2 d-none d-md-inline-block" href="https://www.runoob.com/">菜鸟教程</a>
+		 <!--<a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+		    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+		    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a> -->
+		  </div>
+		</nav>
+			
+			<!-- <h1>Leaflet在线地图</h1> -->
+	    
+		
+		<div class="card bg-secondary text-white">
+			<div class="card-body">Leaflet在线地图</div>
+		</div>
+		<div id="map"></div>		
+		
+	</body>
+</html>
