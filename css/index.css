@@ -1,67 +1,43 @@
-body
-{
-	text-align:center;
-	background-color:LightCyan;
-} 
-#p1
-{
-	font-size:24px;
+*{margin: 0;padding: 0;}
+.nav{
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    font-size: 25px;
+    box-shadow: 0 2px 15px 2px  #545252 ;
 }
-#p2
-{
-	text-align: center;
-	font-family:"Times New Roman";
-	font-size:28px;
-	background-color:LightBlue;
+.container{
+    width: 800px;
+    height: 1000px;
+    border: 1px solid #333;
+    border-bottom: none;
+    margin: 0 auto;
 }
-#p3{
-	text-align:center;
-	margin:0 20px;
-	font-size: 40px;
-	color: blue;
+.container .title{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-#cal{
-	text-align: center;
+.container img{
+    width: 100%;
 }
-#d1{
-	
-	width:80%;
-	margin: auto;
-	
-}
-.short
-{
-	border="0";
-	width:800px;
-	height:600px;
-}
-.long
-{
-	text-align: center;
-	margin: 40px 0 auto;
-	font-size: 30px;
-}
+.title:hover{
+    cursor: pointer;
+    color: #777;
 
-#box{
-	text-align:center;
 }
-
-#txt{
-	font-size: 20px;
-	margin:20 auto;
-	
+.sub-content{
+    text-indent: 32px;
+    line-height: 30px;
 }
-#cal1
-{
-	text-align: center;
-	margin: 0 auto;
-	border:2px solid #a1a1a1;
-	padding:10px 40px; 
-	background:#dddddd;
-	width:800px;
-	border-radius:25px;
+.sub-content:hover{
+    cursor: pointer;
+    color: #d76767;
 }
-#a,#b,#c{
-	background-color:#FFFFFF;
-	box-shadow:0 0 10px 5px #888888;
+ul li{
+    margin-left: 20px;
+    line-height: 30px;
+}
+ul li:hover{
+    cursor: pointer;
+    color: #d76767;
 }
